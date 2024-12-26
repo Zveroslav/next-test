@@ -18,6 +18,9 @@ make setup
 make up
 ```
 
+Open  http://localhost:3000
+JFY Backend will work on  http://localhost:4000
+
 
 ## Getting Stoped
 ```bash
