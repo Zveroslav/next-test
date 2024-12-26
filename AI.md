@@ -1,0 +1,1 @@
+I use claude + my personal VS plagin with OpenAI API
