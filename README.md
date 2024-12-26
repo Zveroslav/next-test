@@ -19,7 +19,7 @@ make up
 ```
 
 Open  http://localhost:3000.
-Just FY Backend will work on  http://localhost:4000
+Just FYI Backend will work on  http://localhost:4000
 
 
 ## Getting Stoped
