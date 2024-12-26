@@ -1,0 +1,23 @@
+# Ignore node modules
+node_modules/
+
+# Ignore environment files
+.env
+
+# Ignore any lock files
+*.lock
+
+# Ignore dist folders (if you have a build process)
+dist/
+
+# Ignore compiled files
+*.log
+*.tsbuildinfo
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

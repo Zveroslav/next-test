@@ -1,15 +1,15 @@
 # Define variables for directories
 API_DIR=api
 PRISMA_DIR=api/prisma
-UI_DIR=ui
+UI_DIR=front
 
-.PHONY: up server ui clean setup
+.PHONY: up server front clean setup
 
 # Default target
 up:
 	@echo "Starting all services..."
 	$(MAKE) server &
-	$(MAKE) ui &
+	$(MAKE) front &
 	@echo "All services started."
 
 # Start the server from the API folder
@@ -18,7 +18,7 @@ server:
 	cd $(API_DIR) && npm start
 
 # Start the UI from the UI folder
-ui:
+front:
 	@echo "Starting UI..."
 	cd $(UI_DIR) && npm run dev
 
